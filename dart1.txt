@@ -1,0 +1,50 @@
+void main() {
+  
+  //String Concatanution
+  /*
+  String firstName = "Kalana";
+  String secondName = "Helanjith";
+  
+  String fullName = firstName +" "+secondName;
+  print(fullName);
+  
+  // String interpolation
+  
+  String greeting = "Hi !";
+  int age = 22;
+  
+// Hi ! you are 22 yrars old ?
+  
+  String message1 = "";
+  message1 = "$greeting you are $age years old ?";
+  print(message1);
+  
+  //Hello you are 32 yeard in 10 years
+  
+  String message2 = "$greeting you are ${age+10} years old in ${age-20} years";
+  print(message2);
+  */
+  
+  String firstName = "Flutter for beginners";
+  print(firstName.toUpperCase());
+  
+  String lastName =" KALANA";
+  print(lastName.toLowerCase());
+  
+  print(firstName.length);
+  print(firstName.substring(0,8));
+  
+//   replaceAll
+  print(firstName.replaceAll("flutter" , "Dart"));
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
