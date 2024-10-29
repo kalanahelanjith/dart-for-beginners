@@ -1,0 +1,51 @@
+void main (){
+  /*
+  int x =  5;
+  double y = 10;
+  
+  //increment
+  x += 2;
+  print("x = $x");
+  
+  
+//   decrement
+  x -= 2;
+  print("x = $x");
+  
+//   multyple
+  x *= 2;
+  print("x = $x");
+  
+//   divide
+  y /= 2;
+  print("y = $y");
+  
+  */
+  
+  int y = 10;
+  print("y = $y");
+  
+  //prefix
+  --y;
+  print("y = $y");
+  
+  //postfix
+  y--;
+  print("y = $y");
+  
+ String firstName = "Kalana";
+  String lastName = "Helanjith";
+  
+  
+//   create the full Name
+  String fullName = "";
+  fullName = firstName + " " + lastName;
+  print(fullName);
+  
+// print the fullName in one line
+  print(" $firstName $lastName");
+  
+  //compound assignment
+  fullName += " is great !";
+  print(fullName);
+}
