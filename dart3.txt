@@ -1,0 +1,54 @@
+void main() {
+  
+  // Type conversion in dart
+  
+  String ageString = "22";
+  print(ageString.runtimeType);
+  
+  // convert the ageString in to integer
+  int ageInt = int.parse(ageString);
+  print(ageInt.runtimeType);
+  
+  
+  
+  String heightString = "165.48";
+  //convert String to a double
+  print(double.parse(heightString).runtimeType);
+  
+  
+  print("-----------");
+  //int conversion
+  //convert in to String
+  
+  int myAge = 22;
+  String myAgeString = myAge.toString();
+  print(myAgeString.runtimeType);
+  
+  int length = 150;
+  print("Type of the length is : ${length.toString().runtimeType}");
+  
+  
+  //convert to double in String
+  double myHeigth = 168.47;
+  String myHeigthString = myHeigth.toString();
+  print(myHeigthString.runtimeType);
+  
+  
+  double myWeight = 76;
+  print("Type of myWeight is: ${myWeight.toString().runtimeType} ");
+  
+  
+  //convert boolean in to String
+  bool isFlutterEasy = true;
+  String isFlutterEasyString = isFlutterEasy.toString();
+  print(isFlutterEasyString.runtimeType);
+  
+  bool isOver = false;
+  print("Tyoe of isOver : ${isOver.toString().runtimeType}");
+  
+  
+  Null nullVarable = null;
+  print(nullVarable);
+  
+  
+}
