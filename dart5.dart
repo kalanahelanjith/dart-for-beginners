@@ -1,32 +1,48 @@
+void main() {
+  /*
+  final videoTitle = "flutter for beginner";
+  print(videoTitle);
+  */
+  
+  var fullTitle = "flutter and Dart";
+  print(fullTitle.runtimeType);
+  
+  var age = 10;
+  print(age.runtimeType);
+  
+  //initialize
+  var a;
+  a = "Dart is my future";
+  print("$a and type is ${a.runtimeType}");
+  
+  a = 100;
+  print("$a and type is ${a.runtimetype} ");
+  
+  var b;
+  b = 1.56;
+  print(b.runtimeType);
+  
+  var b;
+  b = true;
+  print(b.runtimeType);
+  
+  
+}
+
+
 void main(){
+  dynamic c = 120;
+  print(c.runtimeType);
   
-  //merter to centimerter converter
-  double measurementInMerter = 10;
-  
-  double measurementInCentimerter = 0;
-  
-  //equation
-  
-  
-  //const
-  
-  const meterToCentimeter = 100;
-  
-  measurementInCentimerter = measurementInMerter * meterToCentimeter;
-  print("$measurementInMerter meters is equal to $measurementInCentimerter centimerter");
+  // asing to string val to c
+  c = "kalana";
+  print(c.runtimeType);
   
   
-  //miles to Km converter 
+  // asing to bool val to c
+  c = false;
+  print(c.runtimeType);
   
-  double miles = 5;
-  
-  double kilometers = 0;
-  
-  const milesToKilometerConverter = 1.60934;
-  kilometers = miles * milesToKilometerConverter;
-  
-  print("distance in Km is ${kilometers.toStringAsFixed(2)}");
-  
-  
-  
+  c = DateTime.now();
+  print(c);
 }
